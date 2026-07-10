@@ -1,0 +1,13 @@
+{
+  "tree": [
+    { "id": "getting-started", "label": "Getting Started", "path": "getting-started.mdx" },
+    {
+      "id": "guides",
+      "label": "Guides",
+      "children": [
+        { "id": "api-tabs-example", "label": "API Install Options", "path": "guides/api-tabs-example.mdx" },
+        { "id": "alerting-live-preview", "label": "Alerting Live Preview", "path": "guides/alerting-live-preview.mdx" }
+      ]
+    }
+  ]
+} 

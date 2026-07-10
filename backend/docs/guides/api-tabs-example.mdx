@@ -1,0 +1,15 @@
+# Installing via the API
+
+Choose the install method that matches your environment. The snippets below
+are equivalent — pick whichever fits your deployment.
+
+<CodeTabs
+  tabs={[
+    { label: 'Docker', language: 'bash', code: 'docker run -p 8000:8000 docs-platform/api:latest' },
+    { label: 'Helm', language: 'bash', code: 'helm install docs-platform ./charts/docs-platform' },
+    { label: 'Binary', language: 'bash', code: './docs-platform-api --config config.yaml' },
+  ]}
+/>
+
+Tab selection is local component state — switching tabs never triggers a
+network request.
