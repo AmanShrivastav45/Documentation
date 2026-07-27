@@ -21,3 +21,14 @@ Some steps are naturally more automatable (verifying merge/pipeline status, veri
 Deliverable: a short write-up or slide, not code
 Team already has some ideas in mind for this area — useful to compare against, but interns shouldn't be primed with them beforehand
 Want both problem statements combined into one doc for the review board, or kept separate?
+
+
+Problem Statement / Use Case Title: Skill to Auto-Generate Release/Change Ticket and Run Book Templates from Past Releases
+Background / Context: Drafting the release ticket, release unit, change ticket, and the Confluence run book all involve filling many mandatory fields and sections that look similar release over release. The release manager currently drafts these largely from scratch each sprint, referencing past tickets and run books manually for structure and wording.
+Current Challenge: This repetitive drafting work takes real time (part of the ~1 hour spent on initial ticket/run book drafting, plus run book finalization later in the cycle) and depends on the release manager remembering or hunting down how similar fields and run book steps were filled in previous releases.
+Expected Outcome / Goal: Propose a skill that, given access to previous release tickets, change tickets, and Confluence run books, generates a draft template for the upcoming release — pre-filling fields and run book sections that follow a consistent pattern release-to-release, and clearly flagging what needs release-specific input (e.g., specific components being released, new steps, environment-specific details). Deliverable is the skill's design: what past data it draws from, what it generates, what it leaves for the release manager to fill in, and how it would be invoked.
+Any relevant notes, assumptions, or dependencies:
+Access to a sample of past release/change tickets and Confluence run books needed as reference material
+Not all fields or run book steps are template-able — part of the exercise is distinguishing boilerplate content from release-specific content
+Not implementation-required, but interns can prototype a partial version if time allows, given this is more scoped than the broader agent ideas
+Deliverable: a short write-up of the skill design, optionally with a partial working example
